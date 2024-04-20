@@ -1,0 +1,213 @@
+ 
+
+.breadcrum{
+    padding: 10px;
+    font-size: 12px;
+    color: #565656;
+}
+
+.product-display{
+    min-height: 30%;
+    padding: 10px 20px;
+    display:flex;
+}
+.product-d-image{
+    display: flex;
+    gap: 10px;  
+}
+
+.product-display{
+    min-height: 100%;
+    padding:10px,20px;
+    display: flex;
+}
+.product-d-image{
+    display:flex;
+    gap: 20px;
+}
+.product-icons{
+    display: flex;
+    flex-direction:column;
+    gap:10px;
+}
+.product-icons img{
+    border: 1px solid gray;
+    border-radius:10px;
+    padding: 5px;
+}
+.product-d-details {
+    margin: 0 30px;
+}
+
+.brand-store {
+    margin: 5px;
+    color: #007185;
+    font-size: 14px;
+}
+
+.product-rating {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-rating div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-rating p {
+    color: #007185;
+}
+
+.product-rating p span {
+    color: #fff;
+    background: #c73500;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.product-rating h5 {
+    margin-top: 10px; /* Optional: Add spacing between sections */
+}
+/* CSS for the product title */
+.product-title {
+    margin: 5px 0; /* Add margin above and below the title */
+    padding: 10px; /* Add padding inside the title element */
+    color: #333; /* Set the text color */
+    font-size: 16px; /* Set the font size */
+    border: 1px solid #ccc; /* Add a border around the title */
+    border-radius: 5px; /* Optional: Rounded corners for the border */
+    background-color: #f9f9f9; /* Optional: Light background color for the title */
+}
+.product-price{
+    display :flex;
+    flex-direction:column;
+    gap:5px;
+}
+.product-price h1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    color: #c73500; /* This will set the text color to red */
+}
+/* Optional CSS styling for the <del> tag */
+.product-price del {
+    color: #a5a5a5; /* Light gray color, you can customize it as desired */
+    text-decoration: line-through;
+    font-weight: 500; /* Ensures strikethrough effect */
+}
+/* Styling for the list price */
+.list-price {
+    color: black; /* List Price text will be black */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Styling for the free shipping */
+.free-shipping {
+    color: #007185; /* Free Shipping text will be sky blue */
+}
+
+/* Styling for the free returns */
+.free-returns {
+    color: black; /* Free Returns text will be black */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Styling for the join prime */
+.join-prime {
+    color: #007185;/* Join Prime text will be sky blue */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Styling for the lower price */
+.lower-price {
+    color: #007185;/* Lower Price text will be black */
+}
+.product-color-selection img {
+    width: 30px;  /* Set the width of the images */
+    height: 30px; /* Set the height of the images */
+    /* Optional: Add other styles for images */
+    object-fit: cover; /* This helps the image fit the given width and height without stretching */
+    margin-right: 5px; /* Adds space between the image and the text */
+}
+.product-color-selection{
+    margin: 15px 0;
+}
+.product-color-option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.option{
+    display:flex;
+    align-items:center;
+    padding: 8px 12px;
+    border:1px solid #cbcbcb;
+    gap:10px;
+
+}
+.product-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 300px;
+    margin-bottom: 13px;
+}
+
+.product-description h1 {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.product-description ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+.product-d-purchase {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Center the container */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Set a maximum width */
+}
+
+.product-d-purchase h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.product-d-purchase p {
+    font-size: 16px;
+    color: #666;
+}
+
+.purchase-options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buy-now,
+.add-to-cart {
+    padding: 12px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 10px; /* Add margin between buttons */
+}
+
+.buy-now:hover,
+.add-to-cart:hover {
+    background-color: #45a049;
+}
